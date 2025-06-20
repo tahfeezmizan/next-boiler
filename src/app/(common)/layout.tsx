@@ -1,9 +1,9 @@
-import Navbar from "@/components/Header/navbar";
+import Navbar from "@/components/header/navbar";
 import React from "react";
 
 export default function layout({ children }: { children: React.ReactNode }) {
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <Navbar />
       {children}
     </div>
