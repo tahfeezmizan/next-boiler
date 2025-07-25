@@ -1,7 +1,7 @@
 "use client";
 
 import { Drawer } from "antd";
-import { Menu, Phone } from "lucide-react";
+import { Menu } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
@@ -25,9 +25,9 @@ export default function Navbar() {
           <Image
             src={logo}
             alt="logo"
-            width={200}
-            height={50}
-            className="w-44 h-10"
+            width={150}
+            height={30}
+            className="w-28 h-5"
           />
         </Link>
 
@@ -42,10 +42,7 @@ export default function Navbar() {
             </Link>
           ))}
 
-          <ButtonOne
-            title="Start Project"
-            icon={<Phone className="text-black " />}
-          />
+          <ButtonOne title="Explore NOw" />
         </div>
 
         <button className="block md:hidden" onClick={() => setOpen(true)}>
@@ -68,11 +65,7 @@ export default function Navbar() {
               {item.label}
             </Link>
           ))}
-          <ButtonOne
-            title="Start Project"
-            icon={<Phone className="text-black " />}
-            onClick={() => setOpen(false)}
-          />
+          <ButtonOne title="Start Project" onClick={() => setOpen(false)} />
         </Drawer>
       </div>
     </header>
