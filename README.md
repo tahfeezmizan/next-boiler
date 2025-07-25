@@ -10,7 +10,6 @@
 - ✅ Clean and scalable folder structure
 - 🎨 Custom CSS or Tailwind CSS ready
 - 🧠 Preconfigured ESLint & Prettier for clean code
-- 🌐 SEO-friendly with built-in `next/head` usage
 - 🧩 Easily extendable with your favorite tools and libraries
 - 🚀 Ready for deployment (Vercel, Netlify, etc.)
 - 🗂️ File-based routing with 404 page included
@@ -28,5 +27,3 @@ Follow these steps to get your project up and running.
 git clone https://github.com/tahfeezmizan/next-boiler.git
 cd NextBoiler
 npm install or pnpm install
-
-
